@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    top:0;
+    height: 644px;
+    opacity: 0.69;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    max-width: 60vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    width: 130px;
+    /* height: 114px; */
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: Martel-sans, Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding:0px 30px;
+    gap: 23px;
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px 0px 32px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size:20px;
+    text-align: center;
+}
+.seperation{
+    height: 8px;
+    background-color: rgb(38, 36, 36);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: transparent;
+}
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 23px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.btn-red-sm{
+    background-color: red;
+}
+.main input{
+    background-color: rgba(23,23,23,0);
+    padding: 3px 23px;
+    border-radius: 4px;
+    font-size: 20px;
+}
